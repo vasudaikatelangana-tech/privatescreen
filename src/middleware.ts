@@ -1,8 +1,7 @@
 // src/middleware.ts
 import { NextRequest, NextResponse } from "next/server";
 
-export async function middleware(request: NextRequest) {
-  // Temporarily disabled for local testing
+export function middleware(request: NextRequest) {
   return NextResponse.next();
 }
 
