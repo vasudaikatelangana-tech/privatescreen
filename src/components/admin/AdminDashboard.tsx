@@ -1,5 +1,6 @@
 import { useState } from "react";
-
+// src/app/page.tsx
+import dynamic from "next/dynamic";
 // ── Mock Data ──────────────────────────────────────────────────────────────────
 const STATS = [
   { label: "Today's Bookings", value: "24",    delta: "+3 vs yesterday",  up: true,  icon: "🎬" },

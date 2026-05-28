@@ -3,6 +3,9 @@
 
 import { useState, useEffect } from "react";
 
+// src/app/page.tsx
+import dynamic from "next/dynamic";
+
 // ── Data ──────────────────────────────────────────────────────────────────────
 const AREAS = [
   { id: "miyapur",      name: "Miyapur",       emoji: "🎪", count: 3 },

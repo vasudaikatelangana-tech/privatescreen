@@ -1,5 +1,6 @@
 import { useState } from "react";
-
+// src/app/page.tsx
+import dynamic from "next/dynamic";
 // ── Mock Data ──────────────────────────────────────────────────────────────────
 const USER = {
   name:      "Priya Reddy",
