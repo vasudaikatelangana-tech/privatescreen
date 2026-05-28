@@ -1,3 +1,4 @@
+"use client";
 import { useState } from "react";
 // src/app/page.tsx
 import dynamic from "next/dynamic";
